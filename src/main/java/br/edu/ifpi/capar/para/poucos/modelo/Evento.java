@@ -16,84 +16,84 @@ public class Evento {
     private int tipo;
 
     /**
-     * @return the idEvento
+     * @return retorna o id do evento
      */
     public int getIdEvento() {
         return idEvento;
     }
 
     /**
-     * @param idEvento the idEvento to set
+     * @param idEvento insere o id do evento
      */
     public void setIdEvento(int idEvento) {
         this.idEvento = idEvento;
     }
 
     /**
-     * @return the nomeEvento
+     * @return retorna o nome do evento
      */
     public String getNomeEvento() {
         return nomeEvento;
     }
 
     /**
-     * @param nomeEvento the nomeEvento to set
+     * @param nomeEvento insere o nome do evento
      */
     public void setNomeEvento(String nomeEvento) {
         this.nomeEvento = nomeEvento;
     }
 
     /**
-     * @return the dataEvento
+     * @return retorna a data do evento
      */
     public String getDataEvento() {
         return dataEvento;
     }
 
     /**
-     * @param dataEvento the dataEvento to set
+     * @param dataEvento insere a data do evento
      */
     public void setDataEvento(String dataEvento) {
         this.dataEvento = dataEvento;
     }
 
     /**
-     * @return the horario
+     * @return retorna o horario que vai ocorrer o evento
      */
     public int getHorario() {
         return horario;
     }
 
     /**
-     * @param horario the horario to set
+     * @param horario insere o horario do evento
      */
     public void setHorario(int horario) {
         this.horario = horario;
     }
 
     /**
-     * @return the idadeMinima
+     * @return retorna a idade minima para entrar no evento
      */
     public int getIdadeMinima() {
         return idadeMinima;
     }
 
     /**
-     * @param idadeMinima the idadeMinima to set
+     * @param idadeMinima insere a idade minima
      */
     public void setIdadeMinima(int idadeMinima) {
         this.idadeMinima = idadeMinima;
     }
 
     /**
-     * @return the tipo
+     * @return retorna o tipo do evento
      */
     public int getTipo() {
         return tipo;
     }
 
     /**
-     * @param tipo the tipo to set
+     * @param tipo insere o tipo do evento
      */
     public void setTipo(int tipo) {
         this.tipo = tipo;
